@@ -1,0 +1,11 @@
+.in-progress {
+    background-color: #0a0f12;
+    height: calc(100vh - 10rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    font-size: 3rem;
+    color: white;
+}

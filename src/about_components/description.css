@@ -1,0 +1,41 @@
+.description-container {
+    background-color: #0a0f12;
+    padding: 8rem 15%;
+}
+
+.description-container h1 {
+    color: #E6B17E;
+    font-weight: 600;
+    font-size: 3.6rem;
+    margin: 0 0 4rem 0;
+}
+
+.description-container p {
+    color: #DCD7C9;
+    font-size: 2rem;
+    margin: 2rem 3rem 0 0;
+    line-height: 2;
+}
+
+.highlight {
+    color: #E6B17E;
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-container p {
+        color: #DCD7C9;
+        font-size: 1.8rem;
+        margin: 2rem 0 0 0;
+        line-height: 2;
+        text-align: justify;
+    }
+
+}

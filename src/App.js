@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from "react";
+import NavBar from './NavBar';
+import About from "./pages/about";
+import Works from "./pages/works";
+import Progress from "./pages/in_progress";
 
 function App() {
+
+  const [page, setPage] = useState("about");
+
+  function getPage() {
+    switch(page) {
+      case "about":
+        return (<About setPage={setPage}></About>);
+      
+      case "works":
+        return (<Progress/>)
+
+      case "services":
+        return (<Progress/>)
+
+      case "blog":
+        return (<Progress/>)
+
+      case "contact":
+        return (<Progress/>)
+    }
+
+    
+  }
+    
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar currentPage={page} setPage={setPage}/>
+      {getPage()}
     </div>
   );
 }

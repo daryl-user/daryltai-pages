@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav-bar {
+    height: 10rem;
+    background-color: #0a0f12;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.daryl-logo {
+    height: 6rem;
+    margin: 0 0 0 3rem;
+}
+
+
+
+@media (min-width: 769px) {
+
+.nav-elements-container {
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+    align-items: center;
+    height: 6rem;
+}
+
+.nav-elements-container-dropdown {
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    align-items: center;
+    height: 6rem;
+}
+
+.nav-element {
+    font-size: 2rem;
+    color: #DCD7C9;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    transition: 0.3s;
+}
+
+.selected {
+    color: #E6B17E;
+}
+
+.nav-element-dropdown {
+    font-size: 2rem;
+    color: #DCD7C9;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    transition: 0.3s ease-out;
+}
+
+.nav-element:hover {
+    cursor: pointer;
+    color: #E6B17E;
+    transform: translateY(-0.5rem);
+}
+
+.nav-element-dropdown:hover {
+    cursor: pointer;
+    color: #E6B17E;
+    transform: translateY(-0.5rem);
+}
+
+.menu-icon {
+    display: none;
+}
+
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        stroke: #DCD7C9;
+        stroke-width: 0.2rem;
+        width: 4rem;
+        height: 4rem;
+        margin-right: 3rem;
+
+        cursor: pointer;
+    }
+
+    .menu-icon:hover {
+        stroke: #E6B17E;
+    }
+
+    .nav-element {
+        display: none;
+    }
+
+    .nav-elements-container {
+        display: none;
+    }
+
+    .nav-elements-container-dropdown {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 3rem;
+        position: absolute;
+        padding: 3rem 3rem;
+        background-color: #2C3639;
+        opacity: 80%;
+        z-index: 5;
+        top: 10rem;
+        right: 0;
+    }
+
+    .nav-element-dropdown {
+        display: block;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+        color: #DCD7C9;
+        font-weight: 600;
+        text-transform: uppercase;
+        opacity: 100%;
+        cursor: pointer;
+    }
+
+    .nav-element-dropdown:hover {
+        color: #E6B17E;
+    }
+
+    .selected {
+        color: #E6B17E;
+    }
+}
