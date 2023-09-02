@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/daryl-user/daryltai.github.io/gh-pages/static/css/main.c6375a4a.css",
-    "main.js": "/daryl-user/daryltai.github.io/gh-pages/static/js/main.1bf2fe5b.js",
-    "static/js/787.71e672d5.chunk.js": "/daryl-user/daryltai.github.io/gh-pages/static/js/787.71e672d5.chunk.js",
-    "static/media/hero_img.JPG": "/daryl-user/daryltai.github.io/gh-pages/static/media/hero_img.e2610581c30d04be80b8.JPG",
-    "static/media/hero_img.png": "/daryl-user/daryltai.github.io/gh-pages/static/media/hero_img.80221ebed3fdca36a332.png",
-    "static/media/profile_pic.png": "/daryl-user/daryltai.github.io/gh-pages/static/media/profile_pic.17e6a84ea923e5ea27a4.png",
-    "static/media/logo.png": "/daryl-user/daryltai.github.io/gh-pages/static/media/logo.3a935c9ed00136d3d891.png",
-    "index.html": "/daryl-user/daryltai.github.io/gh-pages/index.html",
-    "main.c6375a4a.css.map": "/daryl-user/daryltai.github.io/gh-pages/static/css/main.c6375a4a.css.map",
-    "main.1bf2fe5b.js.map": "/daryl-user/daryltai.github.io/gh-pages/static/js/main.1bf2fe5b.js.map",
-    "787.71e672d5.chunk.js.map": "/daryl-user/daryltai.github.io/gh-pages/static/js/787.71e672d5.chunk.js.map"
+    "main.css": "/daryltai-pages/static/css/main.4a0af0cf.css",
+    "main.js": "/daryltai-pages/static/js/main.39cd4f24.js",
+    "static/js/787.71e672d5.chunk.js": "/daryltai-pages/static/js/787.71e672d5.chunk.js",
+    "static/media/hero_img.JPG": "/daryltai-pages/static/media/hero_img.e2610581c30d04be80b8.JPG",
+    "static/media/hero_img.png": "/daryltai-pages/static/media/hero_img.80221ebed3fdca36a332.png",
+    "static/media/profile_pic.png": "/daryltai-pages/static/media/profile_pic.17e6a84ea923e5ea27a4.png",
+    "static/media/logo.png": "/daryltai-pages/static/media/logo.3a935c9ed00136d3d891.png",
+    "index.html": "/daryltai-pages/index.html",
+    "main.4a0af0cf.css.map": "/daryltai-pages/static/css/main.4a0af0cf.css.map",
+    "main.39cd4f24.js.map": "/daryltai-pages/static/js/main.39cd4f24.js.map",
+    "787.71e672d5.chunk.js.map": "/daryltai-pages/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6375a4a.css",
-    "static/js/main.1bf2fe5b.js"
+    "static/css/main.4a0af0cf.css",
+    "static/js/main.39cd4f24.js"
   ]
 }
