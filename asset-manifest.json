@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/daryltai-pages/static/css/main.4a0af0cf.css",
-    "main.js": "/daryltai-pages/static/js/main.39cd4f24.js",
+    "main.css": "/daryltai-pages/static/css/main.59f92fe9.css",
+    "main.js": "/daryltai-pages/static/js/main.47e354d7.js",
     "static/js/787.71e672d5.chunk.js": "/daryltai-pages/static/js/787.71e672d5.chunk.js",
     "static/media/hero_img.JPG": "/daryltai-pages/static/media/hero_img.e2610581c30d04be80b8.JPG",
     "static/media/hero_img.png": "/daryltai-pages/static/media/hero_img.80221ebed3fdca36a332.png",
     "static/media/profile_pic.png": "/daryltai-pages/static/media/profile_pic.17e6a84ea923e5ea27a4.png",
     "static/media/logo.png": "/daryltai-pages/static/media/logo.3a935c9ed00136d3d891.png",
     "index.html": "/daryltai-pages/index.html",
-    "main.4a0af0cf.css.map": "/daryltai-pages/static/css/main.4a0af0cf.css.map",
-    "main.39cd4f24.js.map": "/daryltai-pages/static/js/main.39cd4f24.js.map",
+    "main.59f92fe9.css.map": "/daryltai-pages/static/css/main.59f92fe9.css.map",
+    "main.47e354d7.js.map": "/daryltai-pages/static/js/main.47e354d7.js.map",
     "787.71e672d5.chunk.js.map": "/daryltai-pages/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a0af0cf.css",
-    "static/js/main.39cd4f24.js"
+    "static/css/main.59f92fe9.css",
+    "static/js/main.47e354d7.js"
   ]
 }
